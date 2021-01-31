@@ -6,3 +6,7 @@ Decode the following hexademical values to instructions:
   opcode - 0110111 (last 7 bits) operation matching our opcode is lui => U-type instraction
   next five bits from the end is rd = 01000 => s0 .Last 20 bits is immediate 0x98765
   result:       lui s0,0x98765
+
+
+2)0x00744433      0x00744433 = 0000 0000 0111 0100 0100 0100 0011 0011
+  opcode - 0110011, instruction type  matching our opcode is R-type
