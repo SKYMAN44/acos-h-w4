@@ -3,4 +3,4 @@ Decode the following hexademical values to instructions:
 
 
 1)0x98765437      0x98765437 = 1001 1000 0111 0110 0101 0100 0011 0111
-  opcode - 0110111 (last 7 bits)
+  opcode - 0110111 (last 7 bits) operation matching our opcode is LUI => U-type instraction
