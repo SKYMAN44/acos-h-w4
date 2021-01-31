@@ -16,12 +16,12 @@ main:
 	mv t1, a0
 	
 	#t1 < t0
-	blt t1, t0, 1branch
+	blt t1, t0, branch1
 	
 	#t0 < t1
-	blt t0, t1, 2branch
+	blt t0, t1, branch2
 	
-1branch:
+branch2:
 	
 	#print smallest
 	mv a0, t1
@@ -39,7 +39,7 @@ main:
 	li a7, 4
 	ecall
 	
-2branch:
+branch2:
 
 	#print smallest
 	mv a0, t0
