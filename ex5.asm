@@ -39,6 +39,8 @@ branch1:
 	li a7, 4
 	ecall
 	
+	b stop
+	
 branch2:
 
 	#print smallest
@@ -56,4 +58,8 @@ branch2:
 	la a0, space
 	li a7, 4
 	ecall
+	
+	b stop
+	
+stop:
 	
