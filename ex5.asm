@@ -1,16 +1,16 @@
-	    .data
+	.data
 space:
-	   .string "\n"
+	.string "\n"
 	
-	    .text
+	.text
 main:
 
-	  # x: t0 = readInt()
+	# x: t0 = readInt()
      	li a7, 5
-	    ecall
-	    mv t0, a0
+	ecall
+	mv t0, a0
       
-    # y: t0 = readInt()
+    	# y: t0 = readInt()
      	li a7, 5
-	    ecall
-	    mv t1, a0
+	ecall
+	mv t1, a0
