@@ -21,7 +21,7 @@ main:
 	#t0 < t1
 	blt t0, t1, branch2
 	
-branch2:
+branch1:
 	
 	#print smallest
 	mv a0, t1
